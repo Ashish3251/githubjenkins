@@ -1,0 +1,20 @@
+sudo mysql -u root -p
+Then create a database called moodle
+
+CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+CREATE DATABASE moodle;
+Next, create a database user called moodleuser and set password
+
+CREATE USER 'moodleuser'@'localhost' IDENTIFIED BY 'moodleuser';
+Then grant the user full access to the database.
+
+GRANT ALL ON moodle.* TO 'moodleuser'@'localhost' WITH GRANT OPTION;
+Finally, save your changes and exit.
+
+FLUSH PRIVILEGES;
+EXIT;
+
+
+SELECT User, Host FROM mysql.user;
+

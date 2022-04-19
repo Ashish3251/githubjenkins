@@ -1,0 +1,25 @@
+documentation of git aws ubuntu server 
+
+1.install git bash on local window server 
+
+downloaded url of gitbash  ----- https://git-scm.com/downloads
+
+2. cerate folder in local system
+
+3. switch to new cerated folder 
+
+4. right click on  select folder git bash here option
+
+5. used command -- git init
+
+6. next command  ---  git remote add origin Repurl
+
+7. switch branch to change or modfied files
+   command   ---   git checkout -b branchname
+
+8. Next  git fetch rep-url branch-name
+
+9.  Next Command  --- git pull rep-url branch-name
+
+
+   

@@ -3,7 +3,7 @@ Then create a database called moodle
 
 CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-CREATE DATABASE moodle;
+CREATE DATABASE moodle;afafsf
 Next, create a database user called moodleuser and set password
 
 CREATE USER 'moodleuser'@'localhost' IDENTIFIED BY 'moodleuser';
